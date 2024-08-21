@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Carol">
+  <meta name="description" content="Exemplo HTML">
+  <meta name="keywords" content="exemplohtml, ads, senac">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style/page1.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+  </style>
+  <title>Página HTML</title>
+</head>
+
+<body>
+  <header id="cabecalho">
+    <h1>Minha Página HTML Básica</h1>
+    <a href="./index.html" class="btn-voltar">Voltar</a>
+  </header>
+
+  <main>
+    <section>
+      <h2>Seção de Listas</h2>
+      <div>
+        <div>
+          <h3>Lista não ordenada:</h3>
+          <ul>
+            <li>🌼</li>
+            <li>🌸</li>
+            <li>🌻</li>
+          </ul>
+        </div>
+
+        <!-- Lista ordenada -->
+        <div>
+          <h3>Lista ordenada:</h3>
+          <ol>
+            <li>Item 1💜</li>
+            <li>Item 2💛</li>
+            <li>Item 3🩵</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Imagem & Vídeo</h2>
+      <div class="container">
+        <!-- Imagem -->
+        <div>
+          <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWlTqo4Ii_vaBC6eVpQXEsiqe7VmwD4Ej4eg&s" alt="Rei Leão">
+          </figure>
+        </div>
+        <!-- Vídeo -->
+        <div>
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/zXwXhebwgsg?si=ZIGAt1RG4y-jQDRw"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="last">
+      <div>
+        <h2>Formulário Simples</h2>
+        <form>
+          <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-group">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+          </div>
+          <div class="form-group show-password">
+            <input type="checkbox" id="mostrarSenha">
+            <label for="mostrarSenha">Mostrar senha</label>
+          </div>
+
+          <div>
+            <label for="anexo">Anexo:</label>
+            <input type="file" id="anexo" name="anexo">
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>&copy; 2024 - Minha Página com HTML Basico</p>
+  </footer>
+
+  <script src="./js/script.js"></script>
+  <script>
+
+  </script>
+</body>
+
+</html>
